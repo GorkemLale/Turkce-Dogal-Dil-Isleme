@@ -1,0 +1,25 @@
+[2025-08-08 22:53:31] 🎯 TEKNOFEST Fine-tuning Süreci Başlatılıyor!
+[2025-08-08 22:53:31] ==================================================
+[2025-08-08 22:53:31] 🔄 Model yedekleme başlatılıyor...
+[2025-08-08 22:53:31] Mevcut modeller:
+NAME                   ID              SIZE      MODIFIED          
+mistral:7b-instruct    6577803aa9a0    4.4 GB    About an hour ago    
+
+[2025-08-08 22:53:31] 📦 Model yedekleniyor...
+[2025-08-08 22:53:31] ✅ Model yedekleme başarılı!
+[2025-08-08 22:53:31] 📝 Training verileri hazırlanıyor...
+[2025-08-08 22:53:31] ✅ 51 veri Alpaca formatında hazırlandı!
+[2025-08-08 22:53:31] 📦 Gerekli kütüphaneler kuruluyor...
+[2025-08-08 22:53:31] Kuruluyor: unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+[2025-08-08 22:55:33] Kuruluyor: torch>=2.1.0
+[2025-08-08 22:55:46] Kuruluyor: transformers>=4.36.0
+[2025-08-08 22:55:59] Kuruluyor: datasets
+[2025-08-08 22:56:13] Kuruluyor: accelerate
+[2025-08-08 22:56:27] Kuruluyor: bitsandbytes
+[2025-08-08 22:56:40] ✅ Tüm kütüphaneler kuruldu!
+[2025-08-08 22:56:40] 🛠️ Fine-tune script oluşturuluyor...
+[2025-08-08 22:56:40] ✅ Fine-tune script oluşturuldu!
+[2025-08-08 22:56:40] 🚀 Fine-tuning başlatılıyor...
+[2025-08-08 22:56:40] ⏰ Bu işlem 2-4 saat sürebilir...
+[2025-08-08 22:56:40] ❌ Fine-tuning başlatma hatası: [WinError 2] The system cannot find the file specified
+[2025-08-08 22:56:40] ❌ Fine-tuning başlatılamadı!
